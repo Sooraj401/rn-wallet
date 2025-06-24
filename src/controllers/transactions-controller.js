@@ -156,7 +156,7 @@ export const getTransactionSummary = async (req, res) => {
                summary: {
                    balance: parseFloat(balanceResult[0].balance),
                    income: parseFloat(incomeResult[0].income),
-                   expense: parseFloat(expenseResult[0].income)
+                   expense: parseFloat(expenseResult[0].expense)
                }
            });
     } catch (error) {
